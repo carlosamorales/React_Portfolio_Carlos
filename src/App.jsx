@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './components/Footer';
+import './styles.css';  // Import the CSS file
 
 const App = () => (
   <Router>

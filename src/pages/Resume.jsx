@@ -1,14 +1,19 @@
 import React from 'react';
 
 const Resume = () => (
-  <section>
+  <section className="resume">
     <h2>Resume</h2>
-    <a href="/path-to-resume.pdf" download>Download Resume</a>
+    <a href="/sample-resume.pdf" download>Download Resume</a>
     <h3>Proficiencies</h3>
     <ul>
-      <li>Proficiency 1</li>
-      <li>Proficiency 2</li>
-      {/* Add more proficiencies */}
+      <li>HTML5, CSS3, and JavaScript</li>
+      <li>React and Redux</li>
+      <li>Node.js and Express.js</li>
+      <li>MongoDB and Mongoose</li>
+      <li>GraphQL and RESTful APIs</li>
+      <li>Responsive Web Design</li>
+      <li>Version Control with Git and GitHub</li>
+      <li>Unit Testing with Jest</li>
     </ul>
   </section>
 );
