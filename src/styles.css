@@ -39,27 +39,33 @@ body {
     color: white;
   }
   
-  /* Navigation styling */
-  nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li {
-    margin: 0 1rem;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2rem;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
+ /* Navigation styling */
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Active navigation link styling */
+nav ul li .active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
   
   /* Section styling */
   section {
