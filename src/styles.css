@@ -6,20 +6,21 @@ body {
     color: white;
   }
   
-  /* Header styling */
-  header {
+ /* Header styling */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     background-color: #1a252f; /* Darker background color */
-    background-image: url('/carlos-images.jpg'); /* Updated path */
+    background-image: url('/Carlos-images.jpg'); /* Adjusted path */
     background-size: cover;
     background-position: center;
     color: #ffffff;
     position: sticky;
     top: 0;
-  }
+}
+
   
   .header-content {
     display: flex;
